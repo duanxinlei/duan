@@ -1,0 +1,182 @@
+.banner{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    background: rgba(0,0,0,0.5);
+    z-index: 5;
+}
+.banner img{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+
+}
+.banner-1{
+    display: block;
+    margin-left: 120px;
+    height: 74px;
+    width: 700px;
+    float: left;
+    margin-top: 20px;
+}
+.banner-1 li{
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+    height: 60px;
+    display: block;
+    position: relative;
+}
+.banner-1 li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 70px;
+    font-size: 17px;
+}
+#banner-1-2{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background: url("../images/icon_01.png");
+    background-position: -54px 0px;
+}
+.banner-2{
+    display: block;
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+    color: #cccccc;
+}
+.banner-2 .banner-2-1{
+    color: lawngreen;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+
+}
+.banner-1 li:hover a{
+    color: gray;
+}
+.banner-1 li:before{
+    content:'';
+    width: 40px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    border-top: 5px solid mediumspringgreen;
+    z-index: 5;
+    bottom: 0px;
+    left: -2px;
+    -webkit-transition:all 0.7s ease 0s;
+    -webkit-transform-origin:0% 0%;
+    -webkit-transform:scale(0,1);
+}
+.banner-1 li:hover:before{
+    -webkit-transform:scale(1,1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.login{
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.login-1{
+    width: 49.8%;
+    height: 100%;
+    float: left;
+    font-size: 25px;
+    color: #333;
+    position: relative;
+}
+.login-2{
+    width: 0.2%;
+    height: 100%;
+    background: #ccc;
+    float: left;
+}
+.login-3{
+    width: 49.8%;
+    height: 100%;
+    float: left;
+}
+input{
+    margin-left: 50px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: lightgoldenrodyellow;
+}
+.aa{
+    width: 50px;
+    height: 20px;
+    background: lightgoldenrodyellow;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    color: lightgoldenrodyellow;
+    font-size: 13px;
+}
+.nor{
+    width: 300px;
+    height: 17px;
+    display: block;
+    top: 280px;
+    position: absolute;
+    left: 35px;
+}
+#btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 125px;
+    background: forestgreen;
+    color: #fff;
+    cursor: pointer;
+}
+.login-1 h3{
+    color: forestgreen;
+}
+.login-3 h3{
+    color: forestgreen;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.login-1 strong{
+    font-size: 15px;
+}
+#checkbox{
+    width: 13px;
+    height: 13px;
+}
+#mian{
+    font-size: 18px;
+
+}
+.login-3 p{
+    color: #333;
+    margin-left: 135px;
+    margin-top: 30px;
+}
+.login-3 input{
+    margin-top: 100px;
+    width: 180px;
+    background: forestgreen;
+    color: #fff;
+    margin-left: 90px;
+}
+#yanzheng{
+    width: 80px;
+}
+#btn555{
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+}
