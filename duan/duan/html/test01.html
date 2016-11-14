@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #box{
+            border-radius: 0 62px 62px 0;
+            position: absolute;
+            top: -2px;
+            width: 60px;
+            height: 120px;
+            border-top: 2px solid #333;
+            border-right: 2px solid #333;
+            border-bottom: 2px solid #333;
+            transition: all 0.3s;
+            clip:rect(0px,62px,0px,0px);
+
+        }
+        #box_wrap{
+            width: 64px;
+            height: 124px;
+            display: block;
+        }
+        #box_wrap:hover #box{
+            clip:rect(0px,62px,124px,0);
+        }
+    </style>
+</head>
+<body>
+    <a id="box_wrap" href=""><div id="box"></div></a>
+</body>
+</html>
