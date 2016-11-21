@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选择排序</title>
+	<script>
+	onload=function(){
+		var arr=[5,6,2,3,4,89,58,50];
+		for(var i=0;i<arr.length;i++){
+			var minIndex=i;
+			for(var j=0;j<arr.length-1;j++){
+				if(arr[minIndex]<arr[j]){
+					minIndex=j;//最小值
+					var flag=arr[j];//da
+					arr[j]=arr[j+1];
+					arr[j+1]=flag;
+				}
+			}
+		}
+		console.log(arr);
+	}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
